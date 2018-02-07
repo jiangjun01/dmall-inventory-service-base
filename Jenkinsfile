@@ -19,6 +19,13 @@ pipeline {
                 
         }
 
+        stage('Test') {
+            steps {
+                sh 'ls -l gradlew'
+            }
+                
+        }
+        
         stage('Build') {
             steps{
                 sh './gradlew build'
