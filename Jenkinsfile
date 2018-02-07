@@ -21,8 +21,8 @@ pipeline {
 
         stage('Build') {
             steps{
-                ./gradlew build
-                ls -l build/libs
+                sh './gradlew build'
+                sh 'ls -l build/libs'
             }
         }
     }
