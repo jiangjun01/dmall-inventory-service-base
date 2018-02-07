@@ -37,7 +37,7 @@ pipeline {
         }
         stage('Dock Push') {
             steps{
-                sh '.genImages.sh'
+                sh './genImages.sh'
              }
         }
     }
