@@ -35,7 +35,7 @@ pipeline {
                 sh 'dir'
              }
         }
-        stage('Dock Pull') {
+        stage('Dock Push') {
             steps{
                 sh '.genImages.sh'
              }
