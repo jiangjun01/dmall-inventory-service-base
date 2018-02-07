@@ -24,7 +24,7 @@ pipeline {
                 sh './gradlew build'
                 sh 'ls -l build/libs'
                 sh 'echo "building..."'
-                sh 'echo "clean.tttt."'
+                sh 'echo "clean.dfrfgt."'
              }
         }
     }
