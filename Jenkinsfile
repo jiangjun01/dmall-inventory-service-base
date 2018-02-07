@@ -19,6 +19,7 @@ pipeline {
             steps{
                 sh 'echo "building..."'
                 sh 'echo "clean..."'
+                sh 'echo "jjj"'
             }
         }
     }
