@@ -25,6 +25,7 @@ pipeline {
                 sh 'ls -l build/libs'
                 sh 'echo "building..."'
                 sh 'echo "clean.dfrfgt."'
+                sh 'dir'
              }
         }
     }
